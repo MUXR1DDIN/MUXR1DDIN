@@ -5,7 +5,6 @@ body {
 body .wrapper {
   overflow: hidden;
   margin: 0 auto;
-  max-width: 1500px;
   height: max-content;
   padding: 0px 30px;
   display: flex;
