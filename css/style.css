@@ -280,18 +280,18 @@ body .wrapper .social3 .img {
   width: 100%;
   height: 650px;
 }
-body .wrapper .cart {
+body .wrapper .carts {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-body .wrapper .cart .a1 {
+body .wrapper .carts .a1 {
   max-width: 750px;
   width: 100%;
   display: flex;
 }
-body .wrapper .cart .a1 .cart1 {
+body .wrapper .carts .a1 .cart1 {
   padding: 0px 5px;
   max-width: 345px;
   width: 100%;
@@ -305,7 +305,7 @@ body .wrapper .cart .a1 .cart1 {
   background-repeat: no-repeat;
   background-position: center center;
 }
-body .wrapper .cart .a1 .cart1 .big {
+body .wrapper .carts .a1 .cart1 .big {
   max-width: 270px;
   width: 100%;
   color: #FFF;
@@ -315,7 +315,7 @@ body .wrapper .cart .a1 .cart1 .big {
   font-weight: 700;
   line-height: 25px; /* 138.889% */
 }
-body .wrapper .cart .a1 .cart1 .small {
+body .wrapper .carts .a1 .cart1 .small {
   max-width: 270px;
   width: 100%;
   color: #FFF;
@@ -325,14 +325,14 @@ body .wrapper .cart .a1 .cart1 .small {
   font-weight: 400;
   line-height: normal;
 }
-body .wrapper .cart .a1 .cart1 .text {
+body .wrapper .carts .a1 .cart1 .text {
   max-width: 270px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   border-top: 2px solid whitesmoke;
 }
-body .wrapper .cart .a1 .cart1 .text p {
+body .wrapper .carts .a1 .cart1 .text p {
   color: #FFF;
   font-family: DM Sans;
   font-size: 12px;
@@ -341,11 +341,11 @@ body .wrapper .cart .a1 .cart1 .text p {
   line-height: normal;
   letter-spacing: 2px;
 }
-body .wrapper .cart .a1 .cart1:hover {
+body .wrapper .carts .a1 .cart1:hover {
   transition-duration: 2s;
   transform: translateY(-30px);
 }
-body .wrapper .cart .a1 .cart2 {
+body .wrapper .carts .a1 .cart2 {
   padding: 0px 5px;
   max-width: 345px;
   width: 100%;
@@ -359,7 +359,7 @@ body .wrapper .cart .a1 .cart2 {
   background-repeat: no-repeat;
   background-position: center center;
 }
-body .wrapper .cart .a1 .cart2 .big {
+body .wrapper .carts .a1 .cart2 .big {
   max-width: 270px;
   width: 100%;
   color: #FFF;
@@ -369,7 +369,7 @@ body .wrapper .cart .a1 .cart2 .big {
   font-weight: 700;
   line-height: 25px; /* 138.889% */
 }
-body .wrapper .cart .a1 .cart2 .small {
+body .wrapper .carts .a1 .cart2 .small {
   max-width: 270px;
   width: 100%;
   color: #FFF;
@@ -379,14 +379,14 @@ body .wrapper .cart .a1 .cart2 .small {
   font-weight: 400;
   line-height: normal;
 }
-body .wrapper .cart .a1 .cart2 .text {
+body .wrapper .carts .a1 .cart2 .text {
   max-width: 270px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   border-top: 2px solid whitesmoke;
 }
-body .wrapper .cart .a1 .cart2 .text p {
+body .wrapper .carts .a1 .cart2 .text p {
   color: #FFF;
   font-family: DM Sans;
   font-size: 12px;
@@ -395,16 +395,16 @@ body .wrapper .cart .a1 .cart2 .text p {
   line-height: normal;
   letter-spacing: 2px;
 }
-body .wrapper .cart .a1 .cart2:hover {
+body .wrapper .carts .a1 .cart2:hover {
   transition-duration: 2s;
   transform: translateY(-30px);
 }
-body .wrapper .cart .a2 {
+body .wrapper .carts .a2 {
   max-width: 750px;
   width: 100%;
   display: flex;
 }
-body .wrapper .cart .a2 .cart3 {
+body .wrapper .carts .a2 .cart3 {
   padding: 0px 5px;
   max-width: 345px;
   width: 100%;
@@ -418,7 +418,7 @@ body .wrapper .cart .a2 .cart3 {
   background-repeat: no-repeat;
   background-position: center center;
 }
-body .wrapper .cart .a2 .cart3 .big {
+body .wrapper .carts .a2 .cart3 .big {
   max-width: 270px;
   width: 100%;
   color: #FFF;
@@ -428,7 +428,7 @@ body .wrapper .cart .a2 .cart3 .big {
   font-weight: 700;
   line-height: 25px; /* 138.889% */
 }
-body .wrapper .cart .a2 .cart3 .small {
+body .wrapper .carts .a2 .cart3 .small {
   max-width: 270px;
   width: 100%;
   color: #FFF;
@@ -438,14 +438,14 @@ body .wrapper .cart .a2 .cart3 .small {
   font-weight: 400;
   line-height: normal;
 }
-body .wrapper .cart .a2 .cart3 .text {
+body .wrapper .carts .a2 .cart3 .text {
   max-width: 270px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   border-top: 2px solid whitesmoke;
 }
-body .wrapper .cart .a2 .cart3 .text p {
+body .wrapper .carts .a2 .cart3 .text p {
   color: #FFF;
   font-family: DM Sans;
   font-size: 12px;
@@ -454,11 +454,11 @@ body .wrapper .cart .a2 .cart3 .text p {
   line-height: normal;
   letter-spacing: 2px;
 }
-body .wrapper .cart .a2 .cart3:hover {
+body .wrapper .carts .a2 .cart3:hover {
   transition-duration: 2s;
   transform: translateY(-30px);
 }
-body .wrapper .cart .a2 .cart4 {
+body .wrapper .carts .a2 .cart4 {
   padding: 0px 5px;
   max-width: 345px;
   width: 100%;
@@ -472,7 +472,7 @@ body .wrapper .cart .a2 .cart4 {
   background-repeat: no-repeat;
   background-position: center center;
 }
-body .wrapper .cart .a2 .cart4 .big {
+body .wrapper .carts .a2 .cart4 .big {
   max-width: 270px;
   width: 100%;
   color: #FFF;
@@ -482,7 +482,7 @@ body .wrapper .cart .a2 .cart4 .big {
   font-weight: 700;
   line-height: 25px; /* 138.889% */
 }
-body .wrapper .cart .a2 .cart4 .small {
+body .wrapper .carts .a2 .cart4 .small {
   max-width: 270px;
   width: 100%;
   color: #FFF;
@@ -492,14 +492,14 @@ body .wrapper .cart .a2 .cart4 .small {
   font-weight: 400;
   line-height: normal;
 }
-body .wrapper .cart .a2 .cart4 .text {
+body .wrapper .carts .a2 .cart4 .text {
   max-width: 270px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   border-top: 2px solid whitesmoke;
 }
-body .wrapper .cart .a2 .cart4 .text p {
+body .wrapper .carts .a2 .cart4 .text p {
   color: #FFF;
   font-family: DM Sans;
   font-size: 12px;
@@ -508,7 +508,7 @@ body .wrapper .cart .a2 .cart4 .text p {
   line-height: normal;
   letter-spacing: 2px;
 }
-body .wrapper .cart .a2 .cart4:hover {
+body .wrapper .carts .a2 .cart4:hover {
   transition-duration: 2s;
   transform: translateY(-30px);
 }
@@ -752,19 +752,19 @@ body .wrapper .footer .b .featur .res {
     flex-direction: column;
     align-items: center;
   }
-  body .wrapper .cart {
+  body .wrapper .carts {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
   }
-  body .wrapper .cart .a1 {
+  body .wrapper .carts .a1 {
     max-width: 1124px;
     width: 100%;
     display: flex;
   }
-  body .wrapper .cart .a1 .cart1 {
+  body .wrapper .carts .a1 .cart1 {
     padding: 0px 5px;
     max-width: 550px;
     width: 100%;
@@ -778,7 +778,7 @@ body .wrapper .footer .b .featur .res {
     background-repeat: no-repeat;
     background-position: center center;
   }
-  body .wrapper .cart .a1 .cart1 .big {
+  body .wrapper .carts .a1 .cart1 .big {
     max-width: 270px;
     width: 100%;
     color: #FFF;
@@ -788,7 +788,7 @@ body .wrapper .footer .b .featur .res {
     font-weight: 700;
     line-height: 25px; /* 138.889% */
   }
-  body .wrapper .cart .a1 .cart1 .small {
+  body .wrapper .carts .a1 .cart1 .small {
     max-width: 270px;
     width: 100%;
     color: #FFF;
@@ -798,14 +798,14 @@ body .wrapper .footer .b .featur .res {
     font-weight: 400;
     line-height: normal;
   }
-  body .wrapper .cart .a1 .cart1 .text {
+  body .wrapper .carts .a1 .cart1 .text {
     max-width: 270px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     border-top: 2px solid whitesmoke;
   }
-  body .wrapper .cart .a1 .cart1 .text p {
+  body .wrapper .carts .a1 .cart1 .text p {
     color: #FFF;
     font-family: DM Sans;
     font-size: 12px;
@@ -814,11 +814,11 @@ body .wrapper .footer .b .featur .res {
     line-height: normal;
     letter-spacing: 2px;
   }
-  body .wrapper .cart .a1 .cart1:hover {
+  body .wrapper .carts .a1 .cart1:hover {
     transition-duration: 2s;
     transform: translateY(-30px);
   }
-  body .wrapper .cart .a1 .cart2 {
+  body .wrapper .carts .a1 .cart2 {
     padding: 0px 5px;
     max-width: 550px;
     width: 100%;
@@ -832,7 +832,7 @@ body .wrapper .footer .b .featur .res {
     background-repeat: no-repeat;
     background-position: center center;
   }
-  body .wrapper .cart .a1 .cart2 .big {
+  body .wrapper .carts .a1 .cart2 .big {
     max-width: 270px;
     width: 100%;
     color: #FFF;
@@ -842,7 +842,7 @@ body .wrapper .footer .b .featur .res {
     font-weight: 700;
     line-height: 25px; /* 138.889% */
   }
-  body .wrapper .cart .a1 .cart2 .small {
+  body .wrapper .carts .a1 .cart2 .small {
     max-width: 270px;
     width: 100%;
     color: #FFF;
@@ -852,14 +852,14 @@ body .wrapper .footer .b .featur .res {
     font-weight: 400;
     line-height: normal;
   }
-  body .wrapper .cart .a1 .cart2 .text {
+  body .wrapper .carts .a1 .cart2 .text {
     max-width: 270px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     border-top: 2px solid whitesmoke;
   }
-  body .wrapper .cart .a1 .cart2 .text p {
+  body .wrapper .carts .a1 .cart2 .text p {
     color: #FFF;
     font-family: DM Sans;
     font-size: 12px;
@@ -868,16 +868,16 @@ body .wrapper .footer .b .featur .res {
     line-height: normal;
     letter-spacing: 2px;
   }
-  body .wrapper .cart .a1 .cart2:hover {
+  body .wrapper .carts .a1 .cart2:hover {
     transition-duration: 2s;
     transform: translateY(-30px);
   }
-  body .wrapper .cart .a2 {
+  body .wrapper .carts .a2 {
     max-width: 1124px;
     width: 100%;
     display: flex;
   }
-  body .wrapper .cart .a2 .cart3 {
+  body .wrapper .carts .a2 .cart3 {
     padding: 0px 5px;
     max-width: 550px;
     width: 100%;
@@ -891,7 +891,7 @@ body .wrapper .footer .b .featur .res {
     background-repeat: no-repeat;
     background-position: center center;
   }
-  body .wrapper .cart .a2 .cart3 .big {
+  body .wrapper .carts .a2 .cart3 .big {
     max-width: 270px;
     width: 100%;
     color: #FFF;
@@ -901,7 +901,7 @@ body .wrapper .footer .b .featur .res {
     font-weight: 700;
     line-height: 25px; /* 138.889% */
   }
-  body .wrapper .cart .a2 .cart3 .small {
+  body .wrapper .carts .a2 .cart3 .small {
     max-width: 270px;
     width: 100%;
     color: #FFF;
@@ -911,14 +911,14 @@ body .wrapper .footer .b .featur .res {
     font-weight: 400;
     line-height: normal;
   }
-  body .wrapper .cart .a2 .cart3 .text {
+  body .wrapper .carts .a2 .cart3 .text {
     max-width: 270px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     border-top: 2px solid whitesmoke;
   }
-  body .wrapper .cart .a2 .cart3 .text p {
+  body .wrapper .carts .a2 .cart3 .text p {
     color: #FFF;
     font-family: DM Sans;
     font-size: 12px;
@@ -927,11 +927,11 @@ body .wrapper .footer .b .featur .res {
     line-height: normal;
     letter-spacing: 2px;
   }
-  body .wrapper .cart .a2 .cart3:hover {
+  body .wrapper .carts .a2 .cart3:hover {
     transition-duration: 2s;
     transform: translateY(-30px);
   }
-  body .wrapper .cart .a2 .cart4 {
+  body .wrapper .carts .a2 .cart4 {
     padding: 0px 5px;
     max-width: 550px;
     width: 100%;
@@ -945,7 +945,7 @@ body .wrapper .footer .b .featur .res {
     background-repeat: no-repeat;
     background-position: center center;
   }
-  body .wrapper .cart .a2 .cart4 .big {
+  body .wrapper .carts .a2 .cart4 .big {
     max-width: 270px;
     width: 100%;
     color: #FFF;
@@ -955,7 +955,7 @@ body .wrapper .footer .b .featur .res {
     font-weight: 700;
     line-height: 25px; /* 138.889% */
   }
-  body .wrapper .cart .a2 .cart4 .small {
+  body .wrapper .carts .a2 .cart4 .small {
     max-width: 270px;
     width: 100%;
     color: #FFF;
@@ -965,14 +965,14 @@ body .wrapper .footer .b .featur .res {
     font-weight: 400;
     line-height: normal;
   }
-  body .wrapper .cart .a2 .cart4 .text {
+  body .wrapper .carts .a2 .cart4 .text {
     max-width: 270px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     border-top: 2px solid whitesmoke;
   }
-  body .wrapper .cart .a2 .cart4 .text p {
+  body .wrapper .carts .a2 .cart4 .text p {
     color: #FFF;
     font-family: DM Sans;
     font-size: 12px;
@@ -981,7 +981,7 @@ body .wrapper .footer .b .featur .res {
     line-height: normal;
     letter-spacing: 2px;
   }
-  body .wrapper .cart .a2 .cart4:hover {
+  body .wrapper .carts .a2 .cart4:hover {
     transition-duration: 2s;
     transform: translateY(-30px);
   }
@@ -1405,21 +1405,21 @@ body .wrapper .footer .b .featur .res {
     width: 100%;
     height: 650px;
   }
-  body .wrapper .cart {
+  body .wrapper .carts {
     max-width: 1500px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  body .wrapper .cart .a1 {
+  body .wrapper .carts .a1 {
     max-width: 750px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  body .wrapper .cart .a1 .cart1 {
+  body .wrapper .carts .a1 .cart1 {
     padding: 0px 30px;
     max-width: 650px;
     width: 100%;
@@ -1433,7 +1433,7 @@ body .wrapper .footer .b .featur .res {
     background-repeat: no-repeat;
     background-position: center center;
   }
-  body .wrapper .cart .a1 .cart1 .big {
+  body .wrapper .carts .a1 .cart1 .big {
     max-width: 600px;
     width: 100%;
     color: #FFF;
@@ -1443,7 +1443,7 @@ body .wrapper .footer .b .featur .res {
     font-weight: 700;
     line-height: 25px; /* 138.889% */
   }
-  body .wrapper .cart .a1 .cart1 .small {
+  body .wrapper .carts .a1 .cart1 .small {
     max-width: 600px;
     width: 100%;
     color: #FFF;
@@ -1453,14 +1453,14 @@ body .wrapper .footer .b .featur .res {
     font-weight: 400;
     line-height: normal;
   }
-  body .wrapper .cart .a1 .cart1 .text {
+  body .wrapper .carts .a1 .cart1 .text {
     max-width: 600px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     border-top: 2px solid whitesmoke;
   }
-  body .wrapper .cart .a1 .cart1 .text p {
+  body .wrapper .carts .a1 .cart1 .text p {
     color: #FFF;
     font-family: DM Sans;
     font-size: 12px;
@@ -1469,11 +1469,11 @@ body .wrapper .footer .b .featur .res {
     line-height: normal;
     letter-spacing: 2px;
   }
-  body .wrapper .cart .a1 .cart1:hover {
+  body .wrapper .carts .a1 .cart1:hover {
     transition-duration: 2s;
     transform: translateY(-30px);
   }
-  body .wrapper .cart .a1 .cart2 {
+  body .wrapper .carts .a1 .cart2 {
     padding: 0px 30px;
     max-width: 650px;
     width: 100%;
@@ -1487,7 +1487,7 @@ body .wrapper .footer .b .featur .res {
     background-repeat: no-repeat;
     background-position: center center;
   }
-  body .wrapper .cart .a1 .cart2 .big {
+  body .wrapper .carts .a1 .cart2 .big {
     max-width: 600px;
     width: 100%;
     color: #FFF;
@@ -1497,7 +1497,7 @@ body .wrapper .footer .b .featur .res {
     font-weight: 700;
     line-height: 25px; /* 138.889% */
   }
-  body .wrapper .cart .a1 .cart2 .small {
+  body .wrapper .carts .a1 .cart2 .small {
     max-width: 600px;
     width: 100%;
     color: #FFF;
@@ -1507,14 +1507,14 @@ body .wrapper .footer .b .featur .res {
     font-weight: 400;
     line-height: normal;
   }
-  body .wrapper .cart .a1 .cart2 .text {
+  body .wrapper .carts .a1 .cart2 .text {
     max-width: 600px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     border-top: 2px solid whitesmoke;
   }
-  body .wrapper .cart .a1 .cart2 .text p {
+  body .wrapper .carts .a1 .cart2 .text p {
     color: #FFF;
     font-family: DM Sans;
     font-size: 12px;
@@ -1523,18 +1523,18 @@ body .wrapper .footer .b .featur .res {
     line-height: normal;
     letter-spacing: 2px;
   }
-  body .wrapper .cart .a1 .cart2:hover {
+  body .wrapper .carts .a1 .cart2:hover {
     transition-duration: 2s;
     transform: translateY(-30px);
   }
-  body .wrapper .cart .a2 {
+  body .wrapper .carts .a2 {
     max-width: 750px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  body .wrapper .cart .a2 .cart3 {
+  body .wrapper .carts .a2 .cart3 {
     padding: 0px 30px;
     max-width: 650px;
     width: 100%;
@@ -1548,7 +1548,7 @@ body .wrapper .footer .b .featur .res {
     background-repeat: no-repeat;
     background-position: center center;
   }
-  body .wrapper .cart .a2 .cart3 .big {
+  body .wrapper .carts .a2 .cart3 .big {
     max-width: 600px;
     width: 100%;
     color: #FFF;
@@ -1558,7 +1558,7 @@ body .wrapper .footer .b .featur .res {
     font-weight: 700;
     line-height: 25px; /* 138.889% */
   }
-  body .wrapper .cart .a2 .cart3 .small {
+  body .wrapper .carts .a2 .cart3 .small {
     max-width: 600px;
     width: 100%;
     color: #FFF;
@@ -1568,14 +1568,14 @@ body .wrapper .footer .b .featur .res {
     font-weight: 400;
     line-height: normal;
   }
-  body .wrapper .cart .a2 .cart3 .text {
+  body .wrapper .carts .a2 .cart3 .text {
     max-width: 600px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     border-top: 2px solid whitesmoke;
   }
-  body .wrapper .cart .a2 .cart3 .text p {
+  body .wrapper .carts .a2 .cart3 .text p {
     color: #FFF;
     font-family: DM Sans;
     font-size: 12px;
@@ -1584,11 +1584,11 @@ body .wrapper .footer .b .featur .res {
     line-height: normal;
     letter-spacing: 2px;
   }
-  body .wrapper .cart .a2 .cart1:hover {
+  body .wrapper .carts .a2 .cart1:hover {
     transition-duration: 2s;
     transform: translateY(-30px);
   }
-  body .wrapper .cart .a2 .cart4 {
+  body .wrapper .carts .a2 .cart4 {
     padding: 0px 30px;
     max-width: 650px;
     width: 100%;
@@ -1602,7 +1602,7 @@ body .wrapper .footer .b .featur .res {
     background-repeat: no-repeat;
     background-position: center center;
   }
-  body .wrapper .cart .a2 .cart4 .big {
+  body .wrapper .carts .a2 .cart4 .big {
     max-width: 600px;
     width: 100%;
     color: #FFF;
@@ -1612,7 +1612,7 @@ body .wrapper .footer .b .featur .res {
     font-weight: 700;
     line-height: 25px; /* 138.889% */
   }
-  body .wrapper .cart .a2 .cart4 .small {
+  body .wrapper .carts .a2 .cart4 .small {
     max-width: 600px;
     width: 100%;
     color: #FFF;
@@ -1622,14 +1622,14 @@ body .wrapper .footer .b .featur .res {
     font-weight: 400;
     line-height: normal;
   }
-  body .wrapper .cart .a2 .cart4 .text {
+  body .wrapper .carts .a2 .cart4 .text {
     max-width: 600px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     border-top: 2px solid whitesmoke;
   }
-  body .wrapper .cart .a2 .cart4 .text p {
+  body .wrapper .carts .a2 .cart4 .text p {
     color: #FFF;
     font-family: DM Sans;
     font-size: 12px;
@@ -1638,7 +1638,7 @@ body .wrapper .footer .b .featur .res {
     line-height: normal;
     letter-spacing: 2px;
   }
-  body .wrapper .cart .a2 .cart2:hover {
+  body .wrapper .carts .a2 .cart2:hover {
     transition-duration: 2s;
     transform: translateY(-30px);
   }
