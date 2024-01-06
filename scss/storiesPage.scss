@@ -1,0 +1,4110 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    .wrapper{
+        overflow: hidden;
+        margin: 0 auto;
+        max-width: 1500px;
+        height: max-content;
+        // padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .header{
+            max-width: 1110px;
+            width: 90%;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img{
+                width: 170px;
+                height: 16px;
+            }
+            a{
+                text-decoration: none;
+                color: #000;
+                font-family: DM Sans;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2px;
+            }
+            a:hover{
+                text-decoration: none;
+                color: gray;
+                font-family: DM Sans;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2px;
+                transition-duration:0.5s ;
+            }
+            ul{
+                display: flex;
+                list-style: none;
+                column-gap: 37px;
+            }
+            button{
+                width: 158px;
+                height: 40px;
+                background: #000;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2px;
+                border: none;
+            }
+            button:hover{
+                width: 158px;
+                height: 40px;
+                background: #DFDFDF;
+                color: #000;
+                font-family: DM Sans;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2px;
+                border: none;
+                transition-duration: 1s;
+            }
+            .img2{
+                display: none;
+            }
+        }
+        .social{
+            max-width: 1500px;
+            padding: 0px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 650px;
+            background-image: url(/img/luna.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            .text{
+                max-width: 887px;
+                width: 90%;
+                height: max-content;
+                // background: green;
+                .small{
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                }
+                .big{
+                    max-width: 300px;
+                    width: 100%;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 48px; /* 120% */
+                    letter-spacing: 4.167px;
+                    text-transform: uppercase;
+                }
+                .small2{
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                .small3{
+                    max-width: 387px;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px; /* 166.667% */
+                }
+                .small4{
+                    max-width: 175px;
+                    width: 100%;
+                    color: #FFF;
+                    // text-align: right;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                }
+                .small4:hover{
+                    transition: 1s;
+                    border-bottom: 2px solid whitesmoke;
+                }
+            }
+        }
+        .social2{
+            display: none;
+        }
+        .cards{
+            max-width: 1600px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            // background: rgb(34, 255, 0);
+            justify-content: center;
+            flex-wrap: wrap;
+            .contain{
+                max-width: 1600px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                .a1{
+                    max-width: 730px;
+                    width: 100%;
+                    display: flex;
+                    .cart1{
+                        padding: 0px 5px;
+                        max-width: 360px;
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        flex-direction: column;
+                        background-image: url(/img/mountain.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        .data{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .big{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; /* 138.889% */
+                        }
+                        .small{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .text{
+                            max-width: 270px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 2px solid whitesmoke;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                    .cart1:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                    .cart2{
+                        padding: 0px 5px;
+                        max-width: 360px;
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        flex-direction: column;
+                        background-image: url(/img/city.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        .data{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .big{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; /* 138.889% */
+                        }
+                        .small{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .text{
+                            max-width: 270px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 2px solid whitesmoke;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                    .cart2:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                }
+                .a2{
+                    max-width: 730px;
+                    width: 100%;
+                    display: flex;
+                    .cart3{
+                        padding: 0px 5px;
+                        max-width: 360px;
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        flex-direction: column;
+                        background-image: url(/img/soya.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        .data{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .big{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; /* 138.889% */
+                        }
+                        .small{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .text{
+                            max-width: 270px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 2px solid whitesmoke;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                    .cart3:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                    .cart4{
+                        padding: 0px 5px;
+                        max-width: 360px;
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        flex-direction: column;
+                        background-image: url(/img/kolizey.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        .data{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .big{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; /* 138.889% */
+                        }
+                        .small{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .text{
+                            max-width: 270px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 2px solid whitesmoke;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                    .cart4:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                }
+            }
+            .contain2{
+                max-width: 1600px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                .a3{
+                    max-width: 730px;
+                    width: 100%;
+                    display: flex;
+                    .cart1{
+                        padding: 0px 5px;
+                        max-width: 360px;
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        flex-direction: column;
+                        background-image: url(/img/treas.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        .data{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .big{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; /* 138.889% */
+                        }
+                        .small{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .text{
+                            max-width: 270px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 2px solid whitesmoke;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                    .cart1:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                    .cart2{
+                        padding: 0px 5px;
+                        max-width: 360px;
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        flex-direction: column;
+                        background-image: url(/img/suny.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        .data{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .big{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; /* 138.889% */
+                        }
+                        .small{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .text{
+                            max-width: 270px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 2px solid whitesmoke;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                    .cart2:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                }
+                .a4{
+                    max-width: 730px;
+                    width: 100%;
+                    display: flex;
+                    .cart3{
+                        padding: 0px 5px;
+                        max-width: 360px;
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        flex-direction: column;
+                        background-image: url(/img/lion.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        .big{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; /* 138.889% */
+                        }
+                        .small{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .text{
+                            max-width: 270px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 2px solid whitesmoke;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                    .cart3:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                    .cart4{
+                        padding: 0px 5px;
+                        max-width: 360px;
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        flex-direction: column;
+                        background-image: url(/img/daraxt.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        .big{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; /* 138.889% */
+                        }
+                        .small{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .text{
+                            max-width: 270px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 2px solid whitesmoke;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                    .cart4:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                }
+            }
+            .contain3{
+                max-width: 1600px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                .a1{
+                    max-width: 730px;
+                    width: 100%;
+                    display: flex;
+                    .cart1{
+                        padding: 0px 5px;
+                        max-width: 360px;
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        flex-direction: column;
+                        background-image: url(/img/suv.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        .data{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .big{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; /* 138.889% */
+                        }
+                        .small{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .text{
+                            max-width: 270px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 2px solid whitesmoke;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                    .cart1:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                    .cart2{
+                        padding: 0px 5px;
+                        max-width: 360px;
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        flex-direction: column;
+                        background-image: url(/img/horse.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        .data{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .big{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; /* 138.889% */
+                        }
+                        .small{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .text{
+                            max-width: 270px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 2px solid whitesmoke;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                    .cart2:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                }
+                .a2{
+                    max-width: 730px;
+                    width: 100%;
+                    display: flex;
+                    .cart3{
+                        padding: 0px 5px;
+                        max-width: 360px;
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        flex-direction: column;
+                        background-image: url(/img/sorfing.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        .data{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .big{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; /* 138.889% */
+                        }
+                        .small{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .text{
+                            max-width: 270px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 2px solid whitesmoke;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                    .cart3:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                    .cart4{
+                        padding: 0px 5px;
+                        max-width: 360px;
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        flex-direction: column;
+                        background-image: url(/img/adir.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        .data{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .big{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; /* 138.889% */
+                        }
+                        .small{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .text{
+                            max-width: 270px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 2px solid whitesmoke;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                    .cart4:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                }
+            }
+            .contain4{
+                max-width: 1600px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                .a3{
+                    max-width: 730px;
+                    width: 100%;
+                    display: flex;
+                    .cart1{
+                        padding: 0px 5px;
+                        max-width: 360px;
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        flex-direction: column;
+                        background-image: url(/img/sky.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        .data{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .big{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; /* 138.889% */
+                        }
+                        .small{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .text{
+                            max-width: 270px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 2px solid whitesmoke;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                    .cart1:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                    .cart2{
+                        padding: 0px 5px;
+                        max-width: 360px;
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        flex-direction: column;
+                        background-image: url(/img/mountains.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        .data{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .big{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; /* 138.889% */
+                        }
+                        .small{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .text{
+                            max-width: 270px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 2px solid whitesmoke;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                    .cart2:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                }
+                .a4{
+                    max-width: 730px;
+                    width: 100%;
+                    display: flex;
+                    .cart3{
+                        padding: 0px 5px;
+                        max-width: 360px;
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        flex-direction: column;
+                        background-image: url(/img/flower.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        .data{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .big{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; /* 138.889% */
+                        }
+                        .small{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .text{
+                            max-width: 270px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 2px solid whitesmoke;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                    .cart3:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                    .cart4{
+                        padding: 0px 5px;
+                        max-width: 360px;
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        flex-direction: column;
+                        background-image: url(/img/winter.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        .data{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .big{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; /* 138.889% */
+                        }
+                        .small{
+                            max-width: 270px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .text{
+                            max-width: 270px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 2px solid whitesmoke;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                    .cart4:hover{
+                        transition-duration: 2s;
+                        transform: translateY(-30px);
+                    }
+                }
+            }
+        }
+        .footer{
+            margin-top: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 64px;
+            // max-width: 100;
+            width: 90%;
+            height: 122px;
+            background: black;
+            .b{
+                display: flex;
+                justify-content: space-between;
+                max-width: 1110px;
+                width: 100%;
+                .icon{
+                    height: 122px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    img{
+                        width: 170px;
+                        height: 16px;
+                    }
+                    ul{
+                        display: none;
+                    }
+                    .icons{
+                        width: 154px;
+                        height: 20px;
+                        display: flex;
+                        justify-content: space-between;
+                        .facebook{
+                            svg{
+                                path{
+                                    fill: #FFF;
+                                }
+                                path:hover{
+                                    transition: 0.5s;
+                                    fill: #6028F1 ;
+                                }
+                            }
+                        }
+                        .youtube{
+                            svg{
+                                path{
+                                    fill: #FFF;
+                                }
+                                path:hover{
+                                    transition: 0.5s;
+                                    fill:  #FF5A5A;
+                                }
+                            }
+                        }
+                        .twitter{
+                            svg{
+                                path{
+                                    fill: #FFF;
+                                }
+                                path:hover{
+                                    transition: 0.5s;
+                                    fill: #27718A;
+                                }
+                            }
+                        }
+                        .p{
+                            svg{
+                                path{
+                                    fill: #FFF;
+                                }
+                                path:hover{
+                                    transition: 0.5s;
+                                    fill: #DE3838;
+                                }
+                            }
+                        }
+                        .insta{
+                            svg{
+                                path{
+                                    fill: #FFF;
+                                }
+                                path:hover{
+                                    transition: 0.5s;
+                                    fill: #6028F1;
+                                }
+                            }
+                        }
+                    }
+                }
+                ul{
+                    max-width: 500px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 122px;
+                    list-style: none;
+                }
+                a:hover{
+                    transition: 0.5s;
+                    color: gray;
+
+                }
+                a{
+                    text-decoration: none;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                }
+                .featur{
+                    background: #000;
+                    height: 122px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .btn{
+                        margin-top: 0px;
+                        width: 160px;
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 2px;
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                    }
+                    .btn:hover{
+                        border-bottom: 2px solid whitesmoke;
+                        transition-duration: 0.5s;
+                    }  
+                    .res{
+                        margin: 0px;
+                        color: #FFF;
+                        text-align: right;
+                        font-family: DM Sans;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:1125px) {
+    body{
+        margin: 0px;
+        padding: 0px;
+        .wrapper{
+            overflow: hidden;
+            margin: 0 auto;
+            max-width: 1500px;
+            height: max-content;
+            // padding: 0px 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .social2{
+                display: none;
+            }
+            .cards{
+                // max-width: 1300px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                .contain{
+                    flex-direction: column;
+                    .a1{
+                        max-width: 1124px;
+                        width: 100%;
+                        display: flex;
+                        .cart1{
+                            padding: 0px 15px;
+                            max-width: 550px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/mountain.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 540px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart1:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                        .cart2{
+                            padding: 0px 15px;
+                            max-width: 550px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/city.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .big{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 540px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart2:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                    }
+                    .a2{
+                        max-width: 1124px;
+                        width: 100%;
+                        display: flex;
+                        .cart3{
+                            padding: 0px 15px;
+                            max-width: 550px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/soya.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 540px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart3:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                        .cart4{
+                            padding: 0px 15px;
+                            max-width: 550px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/kolizey.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 540px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart4:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                    }
+                }
+                .contain2{
+                    flex-direction: column;
+                    .a3{
+                        max-width: 1124px;
+                        width: 100%;
+                        display: flex;
+                        .cart1{
+                            padding: 0px 15px;
+                            max-width: 550px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/treas.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 540px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart1:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                        .cart2{
+                            padding: 0px 15px;
+                            max-width: 550px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/suny.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 540px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart2:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                    }
+                    .a4{
+                        max-width: 1124px;
+                        width: 100%;
+                        display: flex;
+                        .cart3{
+                            padding: 0px 15px;
+                            max-width: 550px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/lion.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 540px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart3:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                        .cart4{
+                            padding: 0px 15px;
+                            max-width: 550px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/daraxt.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 540px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart4:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                    }
+                }
+                .contain3{
+
+                    flex-direction: column;
+                    .a1{
+                        max-width: 1124px;
+                        width: 100%;
+                        display: flex;
+                        .cart1{
+                            padding: 0px 15px;
+                            max-width: 550px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/suv.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 540px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart1:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                        .cart2{
+                            padding: 0px 15px;
+                            max-width: 550px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/horse.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 540px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart2:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                    }
+                    .a2{
+                        max-width: 1124px;
+                        width: 100%;
+                        display: flex;
+                        .cart3{
+                            padding: 0px 15px;
+                            max-width: 550px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/sorfing.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 540px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart3:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                        .cart4{
+                            padding: 0px 15px;
+                            max-width: 550px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/adir.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 540px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart4:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                    }
+                }
+                .contain4{
+
+                    flex-direction: column;
+                    .a3{
+                        max-width: 1124px;
+                        width: 100%;
+                        display: flex;
+                        .cart1{
+                            padding: 0px 15px;
+                            max-width: 550px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/sky.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 540px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart1:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                        .cart2{
+                            padding: 0px 15px;
+                            max-width: 550px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/mountains.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 540px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart2:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                    }
+                    .a4{
+                        max-width: 1124px;
+                        width: 100%;
+                        display: flex;
+                        .cart3{
+                            padding: 0px 15px;
+                            max-width: 550px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/flower.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 540px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart3:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                        .cart4{
+                            padding: 0px 15px;
+                            max-width: 550px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/winter.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 540px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 540px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart4:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:768px) {
+    body{
+        margin: 0px;
+        padding: 0px;
+        .wrapper{
+            overflow: hidden;
+            margin: 0 auto;
+            max-width: 1500px;
+            height: max-content;
+            // background: red;
+            // padding: 0px 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .header{
+                max-width: 1110px;
+                width: 90%;
+            }
+            .social2{
+                display: none;
+            }
+            .footer{
+                margin-top: 0px;
+                display: flex;
+                // align-items: center;
+                // justify-content: center;
+                padding: 30px 64px;
+                // max-width: 100;
+                width: 90%;
+                height: 122px;
+                background: black;
+                .b{
+                    display: flex;
+                    justify-content: space-between;
+                    max-width: 1110px;
+                    width: 100%;
+                    .icon{
+                        height: 122px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        img{
+                            width: 170px;
+                            height: 16px;
+                        }
+                        ul{
+                            padding: 0px;
+                            gap: 20px;
+                            max-width: 500px;
+                            width: 100%;
+                            display: flex;
+                            flex-direction: row;
+                            // flex-direction: column;
+                            // justify-content: space-between;
+                            flex-wrap: wrap;
+                            height: max-content;
+                            list-style: none;
+                        }
+                        .icons{
+                            width: 154px;
+                            height: 20px;
+                            display: flex;
+                            justify-content: space-between;
+                            .facebook{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill: #6028F1 ;
+                                    }
+                                }
+                            }
+                            .youtube{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill:  #FF5A5A;
+                                    }
+                                }
+                            }
+                            .twitter{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill: #27718A;
+                                    }
+                                }
+                            }
+                            .p{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill: #DE3838;
+                                    }
+                                }
+                            }
+                            .insta{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill: #6028F1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    ul{
+                        max-width: 500px;
+                        width: 100%;
+                        display: none;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        height: 122px;
+                        list-style: none;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                    }
+                    .featur{
+                        background: #000;
+                        height: 122px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .btn{
+                            margin-top: 0px;
+                            width: 170px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 2px;
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                        }
+                        .btn:hover{
+                            border-bottom: 2px solid whitesmoke;
+                            transition-duration: 0.5s;
+                        }  
+                        .res{
+                            margin: 0px;
+                            color: #FFF;
+                            text-align: right;
+                            font-family: DM Sans;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}
+@media (max-width:675px) {
+    body{
+        margin: 0px;
+        padding: 0px;
+        .wrapper{
+            margin: 0 auto;
+            max-width: 1500px;
+            height: max-content;
+            // padding: 0px 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .header{
+                // margin-top: 50px;
+                max-width: 1110px;
+                width: 90%;
+                height: 100px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                img{
+                    width: 170px;
+                    height: 16px;
+                }
+                a{
+                    text-decoration: none;
+                    color: #000;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                }
+                a:hover{
+                    text-decoration: none;
+                    color: gray;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                    transition-duration:0.5s ;
+                }
+                ul{
+                    display: none;
+                    list-style: none;
+                    column-gap: 37px;
+                }
+                button{
+                    display: none;
+                    width: 158px;
+                    height: 40px;
+                    background: #000;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                    border: none;
+                }
+                .img2{
+                    width: 20px;
+                    height: 6px;
+                    display: inline;
+                }
+            }
+            .social{
+                display: none;
+            }
+            .social2{
+                // margin-top: 70px;
+                max-width: 1500px;
+                width: 100%;
+                display: flex;
+                flex-direction: column-reverse;
+                .text{
+                    background: #000;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    max-width: 722px;
+                    width: 100%;
+                    height: 600px;
+                    .tex{
+                        padding: 0px 30px;
+                        .big{
+                            max-width: 387px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 32px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 40px; /* 125% */
+                            letter-spacing: 3.333px;
+                            text-transform: uppercase;
+                        }
+                        .small{
+                            max-width: 387px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 25px; /* 166.667% */
+                        }
+                        
+                        .small{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 2px;
+                        }
+                        .big{
+                            max-width: 300px;
+                            width: 100%;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 48px; /* 120% */
+                            letter-spacing: 4.167px;
+                            text-transform: uppercase;
+                        }
+                        .small2{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .small3{
+                            max-width: 387px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 25px; /* 166.667% */
+                        }
+                        .small4{
+                            max-width: 175px;
+                            width: 100%;
+                            color: #FFF;
+                            // text-align: right;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 2px;
+                        }
+                        .small4:hover{
+                            transition: 1s;
+                            border-bottom: 2px solid whitesmoke;
+                        }
+                    }
+                }
+                .img{
+                    background-image: url(/img/luna.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: -700px center;
+                    max-width: 890px;
+                    width: 100%;
+                    height: 650px;
+                }
+            }
+            .cards{
+                max-width: 1500px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                // flex-wrap: wrap;
+                .contain{
+                    .a1{
+                        max-width: 750px;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .cart1{
+                            padding: 0px 30px;
+                            max-width: 650px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/mountain.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 600px;
+                                width: 90%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart1:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                        .cart2{
+                            padding: 0px 30px;
+                            max-width: 650px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/city.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 600px;
+                                width: 90%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart2:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                    }
+                    .a2{
+                        max-width: 750px;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .cart3{
+                            padding: 0px 30px;
+                            max-width: 650px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/soya.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 600px;
+                                width: 90%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart1:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                        .cart4{
+                            padding: 0px 30px;
+                            max-width: 650px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/kolizey.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 600px;
+                                width: 100%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 600px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart2:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                    }
+                }
+                .contain2{
+                    .a3{
+                        max-width: 750px;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .cart1{
+                            padding: 0px 30px;
+                            max-width: 650px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/treas.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 600px;
+                                width: 90%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart1:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                        .cart2{
+                            padding: 0px 30px;
+                            max-width: 650px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/suny.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 600px;
+                                width: 90%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart2:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                    }
+                    .a4{
+                        max-width: 750px;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .cart3{
+                            padding: 0px 30px;
+                            max-width: 650px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/lion.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 600px;
+                                width: 90%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart1:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                        .cart4{
+                            padding: 0px 30px;
+                            max-width: 650px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/daraxt.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 600px;
+                                width: 90%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart2:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                    }
+                }
+                .contain3{
+                    flex-direction: column;
+                    .a1{
+                        max-width: 750px;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .cart1{
+                            padding: 0px 30px;
+                            max-width: 650px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/suv.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 600px;
+                                width: 90%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart1:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                        .cart2{
+                            padding: 0px 30px;
+                            max-width: 650px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/horse.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 600px;
+                                width: 90%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart2:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                    }
+                    .a2{
+                        max-width: 750px;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .cart3{
+                            padding: 0px 30px;
+                            max-width: 650px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/sorfing.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 600px;
+                                width: 90%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart1:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                        .cart4{
+                            padding: 0px 30px;
+                            max-width: 650px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/adir.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 600px;
+                                width: 90%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart2:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                    }
+                }
+                .contain4{
+                    flex-direction: column;
+                    .a3{
+                        max-width: 750px;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .cart1{
+                            padding: 0px 30px;
+                            max-width: 650px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/sky.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 600px;
+                                width: 90%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart1:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                        .cart2{
+                            padding: 0px 30px;
+                            max-width: 650px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/mountains.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 600px;
+                                width: 90%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart2:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                    }
+                    .a4{
+                        max-width: 750px;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .cart3{
+                            padding: 0px 30px;
+                            max-width: 650px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/flower.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 600px;
+                                width: 90%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart1:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                        .cart4{
+                            padding: 0px 30px;
+                            max-width: 650px;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            flex-direction: column;
+                            background-image: url(/img/winter.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            .data{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .big{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; /* 138.889% */
+                            }
+                            .small{
+                                max-width: 600px;
+                                width: 90%;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .text{
+                                max-width: 600px;
+                                width: 90%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 2px solid whitesmoke;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .cart2:hover{
+                            transition-duration: 2s;
+                            transform: translateY(-30px);
+                        }
+                    }
+                }
+            }
+            .footer{
+                margin-top: 0px;
+                display: flex;
+                flex-direction: column;
+                // align-items: center;
+                // justify-content: center;
+                padding: 30px 64px;
+                // max-width: 100;
+                width: 100%;
+                height: max-content;
+                background: black;
+                .b{
+                    height: max-content;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    max-width: 1110px;
+                    width: 100%;
+                    .icon{
+                        height: 122px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 25px;
+                        justify-content: flex-start;
+                        align-items: center;
+                        img{
+                            width: 170px;
+                            height: 16px;
+                        }
+                        ul{
+                            display: none;
+                        }
+                        .icons{
+                            text-align: center;
+                            width: 154px;
+                            height: 20px;
+                            display: flex;
+                            justify-content: space-between;
+                            .facebook{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill: #6028F1 ;
+                                    }
+                                }
+                            }
+                            .youtube{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill:  #FF5A5A;
+                                    }
+                                }
+                            }
+                            .twitter{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill: #27718A;
+                                    }
+                                }
+                            }
+                            .p{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill: #DE3838;
+                                    }
+                                }
+                            }
+                            .insta{
+                                svg{
+                                    path{
+                                        fill: #FFF;
+                                    }
+                                    path:hover{
+                                        transition: 0.5s;
+                                        fill: #6028F1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    ul{
+                        text-align: center;
+                        max-width: 100px;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        height: 122px;
+                        list-style: none;
+                        padding: 0px;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                    }
+                    .featur{
+                        background: #000;
+                        height: 122px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        align-items: center;
+                        .btn{
+                            text-align: center;
+                            margin-top: 0px;
+                            width: 160px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 2px;
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                        }
+                        .btn:hover{
+                            border-bottom: 2px solid whitesmoke;
+                            transition-duration: 0.5s;
+                        }  
+                        .res{
+                            margin: 0px;
+                            color: #FFF;
+                            text-align: right;
+                            font-family: DM Sans;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
